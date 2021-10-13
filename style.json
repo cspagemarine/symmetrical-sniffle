@@ -5,7 +5,7 @@
       "raster-source-1": {
         "type": "raster",
         "tiles": [
-          "https://img.nj.gov/imagerywms/Natural2015?bbox={bbox-epsg-3857}&format=image/png&service=WMS&version=1.1.1&request=GetMap&srs=EPSG:3857&transparent=true&width=256&height=256&layers=Natural2015"
+          "https://klokantech.github.io/naturalearthtiles/tiles/natural_earth_2_shaded_relief.raster/{z}/{x}/{y}.png"
           ],
         "tileSize": 256
       }
@@ -15,7 +15,7 @@
         "id": "raster-layer-1",
         "type": "raster",
         "source": "raster-source-1",
-        "paint": {}
+        "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.1]]}}
       }
     ]
   }

@@ -15,9 +15,8 @@
         "id": "raster-layer-1",
         "type": "raster",
         "source": "raster-source-1",
-        "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.1]]}}
+        "paint": {}
       }
-    ],
-    "id": "ukho-ais-basemap"
+    ]
   }
   
